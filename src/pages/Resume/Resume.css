@@ -1,0 +1,82 @@
+.resume-page {
+    background-color:azure;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 100px;
+    color: #333;
+    border-radius: 30px;
+  }
+  
+  .resume-page h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #5a6e55; /* Primary color */
+    margin-bottom: 20px;
+  }
+  
+  .resume-section {
+    margin-bottom: 40px;
+  }
+  
+  .resume-section h3 {
+    font-size: 1.8em;
+    color: #8b5e3c; /* Accent color for section headers */
+    border-bottom: 2px solid #5a6e55;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-item {
+    margin-bottom: 20px;
+  }
+  
+  .resume-item h4 {
+    font-size: 1.2em;
+    color: #5a6e55; /* Primary color for titles */
+    margin: 0;
+  }
+  
+  .resume-item span {
+    display: block;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  .resume-item p {
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #444;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1em;
+  }
+  
+  .certifications .resume-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .certifications .resume-item h4 {
+    margin: 0;
+  }
+  
+  .certifications .resume-item span {
+    color: #888;
+  }
+  

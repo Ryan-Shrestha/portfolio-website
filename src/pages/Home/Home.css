@@ -1,0 +1,207 @@
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+html{
+    background-image: url('https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg');
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+body {
+    font-family: "League Spartan", sans-serif;
+    background-color: lightblue;
+    background: none;
+    color: #333333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #5a6e55; /* Primary green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+
+  .cta-button .link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cta-button:hover {
+    background-color: #8b5e3c;
+  }
+  
+  /* Hero Section with Parallax */
+  .hero{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #d4b483; 
+    margin-top: 15%;
+  }
+  
+  .hero-content h1 {
+    font-size: 4em;
+    margin: 0;
+    color: black; 
+  }
+  
+  .hero-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color:black;
+  }
+  
+  
+  /* Skills Section */
+  .skills {
+    background-image: url('https://images.pexels.com/photos/8386436/pexels-photo-8386436.jpeg');
+    padding: 60px 20px;
+    text-align:center;
+    margin-left: auto;
+  }
+  
+  .skills h2 {
+    font-size: 2em;
+    color: #8b5e3c;
+  }
+  
+  .skills p {
+    font-size: 1.2em;
+    color: #666666;
+    margin-bottom: 40px;
+  }
+  
+  .skills-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-size: 1em;
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .skill-level {
+    height: 100%;
+    background-color: #5a6e55; /* Primary color for the bar */
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .featured-projects {
+    background-color: #333; /* Dark background to match theme */
+    color: #f7f3ef;         /* Light text color for contrast */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .featured-projects h2 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  .project-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-item {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 40px; /* Space for the timeline line */
+  }
+  
+  .project-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #5a6e55; /* Green color for dots */
+    border-radius: 50%;
+  }
+  
+  .project-date {
+    font-size: 1em;
+    color: #5a6e55; /* Green color for dates */
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .project-content {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .project-content h3 {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .project-content p {
+    margin: 5px 0;
+  }
+  
+  .project-timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px; /* Aligns with the dots */
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #5a6e55; /* Primary color for the timeline line */
+  }
+  
+  .project-card {
+    background-color: #5a6e55; /* Primary green for project cards */
+    color: #f7f3ef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  /* Call-to-Action Section */
+  .call-to-action {
+    background-color: #8b5e3c; /* Warm brown */
+    color: #f7f3ef; /* Light text */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  

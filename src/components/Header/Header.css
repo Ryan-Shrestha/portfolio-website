@@ -1,0 +1,11 @@
+.header {
+  background-color: transparent; /* Warm brown color */
+  color: #f7f3ef;            /* Light beige text for contrast */
+  padding: 20px;
+  text-align: center;          /* Aligns content to the right */
+}
+
+.header h1 {
+  margin: 0;
+  color: black;             /* Matches light text color */
+}
