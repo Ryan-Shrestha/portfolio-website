@@ -49,3 +49,14 @@ To set up the project locally, follow these steps:
 2. **Navigate to the project directory**:
    ```bash
    cd your-repository
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+
+4. **Run the app**:
+   ```bash
+   npm start
+
+5. **Open http://localhost:3000 to view it in the browser.**:
+  
