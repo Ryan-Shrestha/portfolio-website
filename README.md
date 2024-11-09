@@ -12,7 +12,6 @@ A portfolio website built with React that showcases my resume, skills, projects,
 - [Technologies](#technologies)
 - [API Integration](#api-integration)
 - [Error Handling](#error-handling)
-- [Environment Variables](#environment-variables)
 - [Version Control](#version-control)
 - [License](#license)
 
@@ -60,3 +59,33 @@ To set up the project locally, follow these steps:
 
 5. **Open http://localhost:3000 to view it in the browser.**:
   
+# Usage
+## Landing Page
+Use the navigation menu to access other pages like Resume, Portfolio, and Contact.
+
+## Resume Page
+View detailed information about my professional background and skills.
+
+## Portfolio Page
+Browse my GitHub projects, with the ability to filter projects by name using the search bar.
+Each project links directly to the corresponding GitHub repository.
+
+## Contact Page
+Fill out the form to send a message directly to me via Power Automate.
+
+## Technologies
+React - For building the user interface and managing component state.
+GitHub API - For fetching and displaying my public repositories.
+Power Automate - For handling contact form submissions.
+CSS - For styling and responsive design.
+API Integration
+This project integrates with the GitHub API to dynamically display my repositories on the Portfolio page. It uses fetch to retrieve data and React's useEffect to manage the API call on page load.
+
+## Error Handling
+To improve user experience, error handling is implemented to manage issues like failed API requests. If an API request fails, a message is displayed informing the user of the error.
+
+## Version Control
+The project is managed using Git, with regular commits to track changes. Key files like node_modules and .env are included in .gitignore to keep the repository clean. Git tags are used to mark significant versions of the application.
+
+License
+This project is licensed under the MIT License, which permits anyone to use, copy, modify, merge, and distribute the code, provided they include the original license. See LICENSE for more information.
