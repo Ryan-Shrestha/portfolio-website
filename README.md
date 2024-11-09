@@ -32,9 +32,9 @@ This project is a personal portfolio website built using React. It provides an i
 
 ## Screenshots
 
-![Landing Page](path/to/screenshot1.png)
-![Portfolio Page](path/to/screenshot2.png)
-![Contact Page](path/to/screenshot3.png)
+![Landing Page](portfolio-website\assets\landing_page.png)
+![Portfolio Page](portfolio-website\assets\portfolio_page.png)
+![Contact Page](portfolio-website\assets\contact_page.png)
 
 ## Installation
 
@@ -42,4 +42,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Ryan-Shrestha/portfolio-website.git
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd your-repository
