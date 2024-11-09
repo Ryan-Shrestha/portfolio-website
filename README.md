@@ -33,9 +33,9 @@ This project is a personal portfolio website built using React. It provides an i
 
 ## Screenshots
 
-![Landing Page](assets/screenshot1.png)
-![Portfolio Page](assets/screenshot2.png)
-![Contact Page](assets/screenshot3.png)
+![Landing Page](assets/landing_page.png)
+![Portfolio Page](assets/portfolio_page.png)
+![Contact Page](assets/contact_page.png)
 
 
 ## Installation
